@@ -1,0 +1,58 @@
+=== NGUYỄN LAM SƠN - KIỂM TRA CHỮ KÝ SỐ PDF ===
+THỜI GIAN KIỂM TRA: 2025-11-01 01:32:43.609926
+TỆP PDF: D:\BaomatTT\pdf\signed.pdf
+=================================================================
+- Đã nạp chứng thư gốc từ PEM.
+- Phát hiện signature field: FooterSig
+- ByteRange: [0, 110136, 115094, 645]
+- /Contents length: 2478 bytes
+- Hash SHA256 theo ByteRange: 13321557de0c28f05ddac6a25d0df36ad189593a20a90f57da50625bb4631358
+- Bắt đầu xác thực chữ ký (pyHanko) - thử nhiều phương thức...
+
+--- Chi tiết validate (pyHanko) ---
+  Signer info
+  -----------
+  Certificate subject: "Organization: Internet Widgits Pty Ltd, State/Province: Some-State, Country: VN"
+  Certificate SHA1 fingerprint: 04ae2727209cf8c7dc1fa07b6d289598e183345b
+  Certificate SHA256 fingerprint: 8dd8c24018bcf9ac8ebd2011d9b173de7ee5ec5abda5dcec70435f2bdcc18e3f
+  Trust anchor: "Organization: Internet Widgits Pty Ltd, State/Province: Some-State, Country: VN"
+  The signer's certificate is trusted.
+  
+  
+  Integrity
+  ---------
+  The signature is cryptographically sound.
+  
+  The digest algorithm used was 'sha256'.
+  The signature mechanism used was 'sha256_rsa'.
+  
+  
+  Signing time
+  ------------
+  Signing time as reported by signer: 2025-10-31T18:29:58+00:00
+  
+  
+  Modifications
+  -------------
+  The signature covers the entire file.
+  
+  
+  Bottom line
+  -----------
+  The signature is judged VALID.
+  
+-----------------------------------
+
+Thông tin chứng thư người ký:
+ - Chủ thể: Organization: Internet Widgits Pty Ltd, State/Province: Some-State, Country: VN
+ - SHA1 Fingerprint: 04 AE 27 27 20 9C F8 C7 DC 1F A0 7B 6D 28 95 98 E1 83 34 5B
+ - SHA256 Fingerprint: 8D D8 C2 40 18 BC F9 AC 8E BD 20 11 D9 B1 73 DE 7E E5 EC 5A BD A5 DC EC 70 43 5F 2B DC C1 8E 3F
+- Chuỗi chứng thư: ✅ Được tin cậy (CA hợp lệ).
+- Không có dữ liệu OCSP/CRL.
+- Thời gian ký (UTC): 2025-10-31 18:29:58+00:00  → Giờ VN: 2025-11-01 01:29:58+07:00
+- Kiểm tra chỉnh sửa: ✅ Không có thay đổi sau khi ký.
+
+=== KẾT LUẬN CHUNG ===
+Kết quả: ✅ CHỮ KÝ HỢP LỆ — FILE NGUYÊN VẸN.
+
+Hoàn tất. Báo cáo lưu tại: D:\BaomatTT\pdf\kiemtra.txt
